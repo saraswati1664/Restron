@@ -114,16 +114,16 @@ background-color: #c6cfe155 !important;
     transition: all 0.3s ease;
 }
 .anime1{
-    animation: bottom-top 1s ease 1s 1 normal ;
+    animation: bottom-top 1s ease  1 normal ;
 }
 .anime2{
-    animation: bottom-top 1.5s ease 1s 1 normal ;
+    animation: bottom-top 1.5s ease  1 normal ;
 }
 .anime3{
-    animation: bottom-top 2s ease 1s 1 normal ;
+    animation: bottom-top 2s ease  1 normal ;
 }
 .anime4{
-    animation: bottom-top 2.5s ease 1s 1 normal ;
+    animation: bottom-top 2.5s ease  1 normal ;
 }
 .card-1:hover{
     background-color: #FEA116;
@@ -168,7 +168,18 @@ background-color: #c6cfe155 !important;
     padding-left: 0;
 }
 .zoom-me{
-    animation: zoom-in  2s ease-out 0.25s 1 normal ;
+    animation: zoom-in  1s ease-out 0.1s 1 normal ;
+    visibility: visible;
+}
+.zoom-me1{
+    animation: zoom-in  1s ease-out 0.3s 1 normal ;
+}
+.zoom-me2{
+    animation: zoom-in  1s ease-out 0.5s 1 normal ;
+}
+.zoom-me3{
+    animation: zoom-in  1s ease-out 0.7s 1 normal ;
+    visibility: visible;
 }
 .foont-change{
     font-family: var(--font-3);
@@ -240,6 +251,9 @@ background-color: #c6cfe155 !important;
 
 /* section-4 */
 
+.head-1-sec-4{
+    animation: bottom-top 1s ease  1 normal ;
+}
 .cute-head{
   font-family: var(--font-2);
   color: #FEA116;
@@ -293,7 +307,9 @@ background-color: #c6cfe155 !important;
     font-weight: 800;
     margin: 0;
 }
-
+.tab-class{
+     animation: bottom-top 1s ease  1 normal ;
+}
 .tab-content  .span-1{
     line-height: 1.2;
     color: #0F172B;
@@ -310,6 +326,14 @@ background-color: #c6cfe155 !important;
 }
 
 /* section-5 */
+.sec-5{
+    animation: bottom-top 1s ease 0.1s 1 normal ;
+    visibility: visible;
+}
+.form-contain{
+    animation: bottom-top 1s ease 0.2s 1 normal ;
+    visibility: visible;
+}
 .sec-5 .video-and-form{
     margin-right: 0;
 }
@@ -653,16 +677,18 @@ background-color: #c6cfe155 !important;
 
 @keyframes bottom-top{
     from{
-        transform: translateY(300px);
+        transform: translateY(100%);
+        opacity: 0;
     }
     to{
-        transform: translateY(0px);
+       
+        opacity: 1;
     }
 }
 
 @keyframes zoom-in{
     from{
-        transform: scale(0.3);
+        transform: scale3d(.3, .3, .3);
         opacity: 0;
     }
     to{
