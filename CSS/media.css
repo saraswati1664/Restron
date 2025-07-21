@@ -1,1 +1,70 @@
- 
+ @media (max-width: 1200px){
+    .sec-1{
+        overflow: hidden;
+    }
+    .bkg-dark form textarea {
+    height: 60px !important;
+    }
+    .chef-card-item {
+    height: calc(100% - 68px);
+    overflow-y: hidden;
+    transition: 0.5s;
+    }
+    .sec-6 .all-chef-card-contain .col-lg-3 {
+    flex: 0 0 25%;
+    max-width: 23%;
+    height: 345px;
+}
+ }
+
+ @media (max-width: 1099px){
+    .sec-5{
+        padding-right: 0 !important;
+    }
+    .sec-5 .video-container {
+    padding-right: 0;
+    padding-left: 0;
+}
+ }
+ @media (max-width:992px){
+    .images-ki-row .col-lg-6 {
+     padding-left: 15px; 
+     padding-right: 0;
+    }
+    .sec-6 .all-chef-card-contain .col-lg-3 {
+    flex: 0 0 auto;
+    max-width: 35%;
+    height: 415px;
+    }
+    .sec-6 .all-chef-card-contain {
+    gap: 24px;
+    }
+    .video a {
+    background-color: #FEA116;
+    padding: 20px 25px;
+    border-radius: 50px;
+    color: #0F172B;
+    position: absolute;
+    bottom: 200px;
+    left: 210px;
+}
+ }
+
+@media (max-width:576px){
+    .sec-6 .all-chef-card-contain .col-lg-3 {
+    flex: 0 0 auto;
+    max-width: 80%;
+    height: auto;
+}
+.video a {
+    background-color: #FEA116;
+    padding: 20px 25px;
+    border-radius: 50px;
+    color: #0F172B;
+    position: absolute;
+    bottom: 40%;
+    left: 40%;
+    /* right: auto; */
+    /* top: 40%; */
+}
+} 
