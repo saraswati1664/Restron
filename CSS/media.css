@@ -48,6 +48,7 @@
     bottom: 200px;
     left: 210px;
 }
+ 
  }
 
 @media (max-width:576px){
@@ -66,3 +67,22 @@
     left: 40%;
 }
 } 
+@media (min-width:576px) and ( max-width:768px){
+    .card-1 {
+    margin-bottom: 20px;
+    }
+    body .sec-3 .wi-2 img {
+        width: 100%;
+        margin-top: 0;
+    }
+    .sec-3 .text-end img {
+    width: 100%;
+    }
+    .spin-me{
+         margin-top: 20px;
+    }
+    .video a {
+    left: 255px;
+    }
+}
+
